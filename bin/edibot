@@ -1,0 +1,10 @@
+#!/usr/bin/env julia
+
+# bin/edibot - Launcher script for EdiBot.jl CLI
+
+using Pkg
+Pkg.activate(normpath(joinpath(@__DIR__, "..")), io=devnull)
+
+using EdiBot
+
+exit(EdiBot.run_cli(ARGS))

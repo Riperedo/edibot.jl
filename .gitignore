@@ -1,0 +1,16 @@
+# Local developmental logs (never committed)
+History.md
+
+# Julia artifacts & cache
+Manifest.toml
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+*.so
+*.dylib
+*.dll
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.bak
