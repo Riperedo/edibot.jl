@@ -1,5 +1,7 @@
-# Local developmental logs (never committed)
+# Local developmental logs and private tutorial
 History.md
+tutorial/
+tutorial_report/
 
 # Julia artifacts & cache
 Manifest.toml
